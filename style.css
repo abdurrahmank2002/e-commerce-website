@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Barlow:wght@100&family=Bitter:wght@200&family=Explora&family=Indie+Flower&family=Open+Sans:ital,wght@0,500;1,700&family=Poppins:ital,wght@0,100;0,200;1,100;1,200&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+#navbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: 2rem 2rem;
+}
+
+ul li a:hover {
+    border-bottom: 3px solid green;
+}
+
+#navbar button {
+    background-color: white;
+    border-radius: 120px;
+    padding: 2px;
+}
+
+#navbar button:hover {
+    color: yellow;
+    background-color: blue;
+    animation: name 2s liner 2s;
+}
+
+#home {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    color: white;
+    font-size: 500px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)), url("https://as2.ftcdn.net/v2/jpg/02/41/38/67/1000_F_241386704_7qlDzHNwncwwgprXdkj7YqK9c4OFyo1v.jpg");
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+
+#home h1 {
+    font-size: 50px;
+    letter-spacing: 3px;
+    text-shadow: 10px 1px 45px rgb(22, 22, 26), 20px 2px 45px rgb(9, 9, 15), 30px 3px 45px rgb(13, 11, 10), 40px 45px 45px rgb(36, 31, 29);
+}
+
+#home p {
+    font-size: 10px;
+    font-family: cursive;
+}
+
+#home .input-group {
+    font-size: 50px;
+    width: 400px;
+    height: 40px;
+}
+
+.signin {
+    background-color: green;
+    width: 100px;
+    height: 40px;
+    font-size: 10px;
+    color: white;
+}
+
+#home a {
+    font-size: small;
+    text-decoration: none;
+    font-weight: 300;
+    font-family: cursive;
+    color: white;
+}
+
+#about {
+    background: linear-gradient(to right, rgb(244, 10, 49), rgb(230, 12, 49), rgb(241, 4, 44));
+    color: white;
+}
+
+#ig {
+    margin-top: 20px;
+    border-radius: 50%;
+    border: 2px dashed rgb(10, 4, 5);
+    outline: yellow;
+    text-align: justify;
+}
+
+#about h1 {
+    font-weight: 800;
+    font-family: cursive;
+}
+
+#product {
+    background: #e5e5e5;
+    font: black;
+}
+
+#product img {
+    width: 200px;
+    height: 200px;
+    background: #e5e5e5 !important;
+    border: none;
+}
+
+.card {
+    weight: 250px;
+    height: 300px;
+    background: #e5e5e5 !important;
+    border: none;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    margin-bottom: 100px;
+    border-radius: 20px !important;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+#product .card:hover {
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, .3), inset -4px -4px 10px white !important;
+    transition: .2s;
+}
+
+#contact {
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.box {
+    width: 80%;
+    margin-top: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact input {
+    margin: 10px 10px;
+}
+
+#contact textarea {
+    margin: 10px 10px;
+}
+
+footer {
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, .8);
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+    padding: 3px;
+}
+
+#contact img {
+    border-radius: 50%;
+    border: 5px dashed rgb(26, 117, 196);
+}
